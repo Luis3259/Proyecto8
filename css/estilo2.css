@@ -1,0 +1,34 @@
+*{/*el "*" aplica estilos a todo la pagina, va de forma escalonada por lo que puedo cambiarlo 
+    a medida que voy agregando estilos*/
+    font-family: cursive;
+    margin: 30px;
+}
+h1,h2{
+    padding: 15px;
+    border: 10px;
+    border-color: brown;
+    border-style: dotted;
+    color: darkorchid;
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+/*En texto se solapan los margener, en si el margen de abajo de un texto
+es el margen de ariba del texto siguguiente.
+pero cuando se trata de imagenes se respeta el margen individualmentre*/
+p{
+    padding: 10px;
+    color: royalblue;
+    text-align: justify;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: red;
+    background-color: darkturquoise;
+}
+body{
+    background-color: aliceblue;
+}
+img{
+    width: 47%;
+    margin: 30px;
+}
